@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Author: Mahdi Moradi - 300951014
+ * Final Project - CINEPLEX Ticket Service
+ * Date: 18 April 2019
+ *
+ * /-->
+<resources>
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#094069</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccentDark">#01665B</color>
+    <color name="colorAccent">#03776A</color>
+    <color name="error">#FFAAAA</color>
+    <color name="popup">#585E6D</color>
+    <color name="editTextBackground">#E5E5E5</color>
+    <color name="lightGreyBack">#C9C9C9</color>
+    <color name="gradWhite">#fdfdfe</color>
+    <color name="gradBlueLight2">#d8e2ee</color>
+    <color name="gradBlueLight3">#b0c4dd</color>
+    <color name="btnBlue01">#3499ff</color>
+    <color name="btnBlue02">#3A3985</color>
+    <color name="gradYellowLight1">#ffffe0</color>
+    <color name="gradYellowLight2">#FBE9B7</color>
+    <color name="gradPinkish1">#fbe9b7</color>
+    <color name="gradGreen2">#3fd79c</color>
+    <color name="gradGreen3">#DEDFDD</color>
+    <color name="gradPink01">#ffdee7</color>
+    <color name="gradPink02">#f9c7d3</color>
+    <color name="gradPink03">#f3aec1</color>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Author: Mahdi Moradi - 300951014
+ * Final Project - CINEPLEX Ticket Service
+ * Date: 18 April 2019
+ *
+ * /-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:endColor="@color/gradYellowLight1"
+        android:centerColor="@color/editTextBackground"
+        android:startColor="@color/gradWhite"
+        android:angle="270" />
+    <corners
+        android:radius="10dp"
+        />
+    <stroke
+        android:width="1dp"
+        android:color="@color/colorPrimary" />
+</shape>

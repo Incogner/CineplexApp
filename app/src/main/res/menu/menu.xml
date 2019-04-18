@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Author: Mahdi Moradi - 300951014
+ * Final Project - CINEPLEX Ticket Service
+ * Date: 18 April 2019
+ *
+ * /-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/m1"
+        android:title="@string/userMenu1"/>
+    <item
+        android:id="@+id/m3"
+        android:title="@string/userMenu3"/>
+    <item
+        android:id="@+id/m4"
+        android:title="@string/userMenu4"/>
+    <item
+        android:id="@+id/m5"
+        android:title="@string/userMenu5"/>
+</menu>

@@ -1,0 +1,130 @@
+<resources>
+    <!--
+/*
+ * Author: Mahdi Moradi - 300951014
+ * Final Project - CINEPLEX Ticket Service
+ * Date: 18 April 2019
+ *
+ * /-->
+    <!--MainActivity and Login Frags-->
+    <string name="app_name">Project CINEPLEX</string>
+    <string name="tab01">tab1</string>
+    <string name="tab02">tab2</string>
+    <string name="userEmail">User Email:</string>
+    <string name="password">Password:</string>
+    <string name="password2">Confirm Password:</string>
+    <string name="btnLogin">Login</string>
+    <string name="adminInfo">UserName: admin\nPassword: pass</string>
+
+    <!--RegistrationActivity-->
+    <string name="userName">User Name:</string>
+    <string name="fName">First Name:</string>
+    <string name="lName">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="age">Age:</string>
+    <string name="phone">Phone No:</string>
+    <string name="address">Address:</string>
+    <string name="city">City:</string>
+    <string name="postalCode">PostalCode:</string>
+    <string name="btnRegister">Register</string>
+    <string name="showReg">Successfully Registered!</string>
+    <string name="btnConReg">Go to Login</string>
+
+    <!--ProfileActivity-->
+    <string name="btnChangePass">Change Password</string>
+    <string name="profilePage">Profile:</string>
+    <string name="btnUpdateProfile">Update</string>
+    <string name="btnCloseProfile">Go Back</string>
+    <string name="popUpCurrentPass">Current Password:</string>
+    <string name="popUpNewPass">New Password:</string>
+    <string name="popUpRepeatPass">Repeat Password:</string>
+    <string name="btnClosePop">Cancel</string>
+    <string name="btnSavePop">Save</string>
+    <string name="changePassPopTitle">Change Password:</string>
+    <string name="btnDeleteAudience">Delete Audience</string>
+
+    <!--MoviesActivity-->
+    <string name="btnBookMovie">Book a ShowTime</string>
+    <string name="director">Director:</string>
+    <string name="stars">Stars:</string>
+    <string name="desc">Description:</string>
+    <string name="contDesc">Image File</string>
+    <!--Menu-->
+    <string name="userMenu1">Profile</string>
+    <string name="userMenu3">Bookings</string>
+    <string name="userMenu4">Customer Service</string>
+    <string name="userMenu5">Logout</string>
+
+    <!--BookingInfoActivity-->
+    <string name="swAdult">Adults (15 to 65 years)</string>
+    <string name="swChild">Children (2 to 14 years)</string>
+    <string name="cbSeniors">Seniors (66 years or up)</string>
+    <string name="bInfoChoose">Choose a ShowTime:</string>
+    <string name="bInfoNoOfTicket">Number of Tickets:</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="payInfo">Payment Info:</string>
+    <string name="ccvLbl">CCV: </string>
+    <string name="cardTypeLbl">Payment Method: </string>
+    <string name="cardNoLbl">Card No: </string>
+    <string name="ccvHint">123</string>
+    <string name="cardNoHint">565&#8211;3764&#8211;XXXX&#8211;XXXX</string>
+    <!--ShowTime RadioGroup-->
+    <string name="t1">12:15</string>
+    <string name="t2">14:15</string>
+    <string name="t3">16:45</string>
+    <string name="t4">18:50</string>
+    <string name="t5">20:50</string>
+    <!--ShowDate RadioGroup-->
+    <string name="d1">2019&#8211;04&#8211;26</string>
+    <string name="d2">2019&#8211;04&#8211;27</string>
+    <string name="d3">2019&#8211;04&#8211;28</string>
+    <string name="d4">2019&#8211;04&#8211;29</string>
+    <string name="d5">2019&#8211;04&#8211;30</string>
+
+    <!--CheckOutActivity-->
+    <string name="ticketInfo">Ticket Info:</string>
+    <string name="movieName">Movie Name:</string>
+    <string name="userName2">User Name:</string>
+    <string name="showDate">Show Date:</string>
+    <string name="showTime">Show Time:</string>
+    <string name="adultTickets">Adult Tickets:</string>
+    <string name="childTickets">Child Tickets:</string>
+    <string name="seniorTickets">Senior Tickets:</string>
+    <string name="total">Total Price:</string>
+    <string name="btnConfirmCheckOut">Confirm CheckOut</string>
+
+    <!--BookingViewActivity-->
+    <string name="bookingInfo">Booking Info:</string>
+    <string name="amtPaid">Amount Paid:</string>
+    <string name="bookingStatus">Booking Status:</string>
+    <string name="paymentDate">Payment Date:</string>
+    <string name="btnBViewClose">Dismiss</string>
+    <string name="btnBViewSave">Save Data</string>
+    <string name="btnBViewDelete">Delete Booking</string>
+    <string name="userSelection">User Selection:</string>
+    <string name="noData">No Available Data!</string>
+
+    <!--AdminViewActivity-->
+    <string name="options">Options:</string>
+    <string name="btnBookings">Bookings</string>
+    <string name="btnAudiences">Audiences</string>
+    <string name="btnMovies">Movies</string>
+    <string name="btnLogout">Logout</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--Theatre Information-->
+    <string name="btnBookShowTime">Book a ShowTime</string>
+    <string name="findTheatre">Choose province and city: </string>
+    <string name="province">Province:</string>
+    <string name="updateMap">Update Map</string>
+    <string name="theatreInfo">Theatre Information</string>
+    <string name="pleaseWait">Please Wait…</string>
+
+    <string name="read_permission_not_granted">READ_SMS PERMISSION NOT GRANTED!</string>
+    <string name="send_permission_not_granted">SEND_SMS PERMISSION NOT GRANTED!</string>
+    <string name="receive_permission_not_granted">Receive_SMS PERMISSION NOT GRANTED!</string>
+    <string name="failure_permission">Failure to obtain permission!</string>
+    <string name="btnSend">Send</string>
+
+
+</resources>

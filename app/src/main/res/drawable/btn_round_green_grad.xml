@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Author: Mahdi Moradi - 300951014
+ * Final Project - CINEPLEX Ticket Service
+ * Date: 18 April 2019
+ *
+ * /-->
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient
+                android:endColor="@color/colorAccent"
+                android:centerColor="@color/colorAccent"
+                android:startColor="@color/gradGreen2"
+                android:angle="270" />
+            <corners
+                android:radius="20dp"
+                />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+    <item android:state_focused="true" >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient
+                android:endColor="@color/gradGreen2"
+                android:centerColor="@color/colorAccent"
+                android:startColor="@color/gradGreen2"
+                android:angle="270" />
+            <corners
+                android:radius="20dp"
+                />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient
+                android:endColor="@color/colorAccentDark"
+                android:centerColor="@color/colorAccent"
+                android:startColor="@color/gradGreen2"
+                android:angle="270" />
+            <corners
+                android:radius="20dp"
+                />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mahdi.test.comp304_001_assignment04">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+        <activity
+            android:name=".CustomerServiceActivity"
+            android:parentActivityName=".MoviesActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".TheatreInfoActivity"
+            android:parentActivityName=".AreaActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".AreaActivity"
+            android:parentActivityName=".MoviesActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".AudienceListActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".AdminViewActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".BookingViewActivity"
+            android:parentActivityName=".BookingListActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".CheckOutActivity"
+            android:parentActivityName=".BookingInfoActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".BookingInfoActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".BookingListActivity"
+            android:parentActivityName=".MoviesActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".MoviesActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".ProfileActivity"
+            android:parentActivityName=".MoviesActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".RegConfirmActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".JsonDownloadService" />
+
+        <receiver android:name=".AreaActivity$BroadRequestReceiver" />
+    </application>
+
+</manifest>

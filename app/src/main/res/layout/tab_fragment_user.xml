@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Author: Mahdi Moradi - 300951014
+ * Final Project - CINEPLEX Ticket Service
+ * Date: 18 April 2019
+ *
+ * /-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gen_background_grad"
+    tools:context=".FragmentUser">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignStart="@+id/grid1"
+        android:layout_alignEnd="@+id/grid1"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ciniplex" />
+
+    <GridLayout
+        android:id="@+id/grid1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:columnCount="2"
+        android:orientation="vertical"
+        android:rowCount="4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/userEmail"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/userUserName"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_text_background"
+            android:inputType="textEmailAddress"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/password"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/userPassword"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_text_background"
+            android:inputType="textPassword"
+            android:padding="5dp" />
+
+        <Button
+            android:id="@+id/btnLoginUser"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_bottom_right_round"
+            android:text="@string/btnLogin"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnRegisterUser"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_top_left_green"
+            android:text="@string/btnRegister"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="24sp" />
+    </GridLayout>
+
+</RelativeLayout>
